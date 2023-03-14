@@ -47,7 +47,7 @@ or get messages by from channel id
 Changing theme/locale
 
   ```java
-     selfClient.change_theme(SelfClient.Theme.LIGHT); //SelfCLient.Theme.DARK
+     selfClient.change_theme(SelfClient.Theme.LIGHT); //SelfClient.Theme.DARK
      selfClient.change_locale(SelfClient.Locale.THAI); //SelfClient.Locale.GREEK/JAPAN/BULGARIAN/RUSSIAN
 ```
 
