@@ -33,3 +33,13 @@ Getting messages
             }
         }
 ```
+
+or get messages by from channel id
+
+  ```java
+         Channel channel = selfClient.channel("channel_id");
+        List<Message> messages = selfClient.messages(channel.id());
+        for(Message message : messages) {
+            System.out.println("content > " + message.content() + " id > " + message.id());
+        }
+```
