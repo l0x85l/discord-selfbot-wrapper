@@ -76,7 +76,7 @@ Creating/leaving/joining/deleting guild
 
 Add/delete/block friend
   ```java
-     selfClient.add_friend("name", "discriminator);
+     selfClient.add_friend("name", "discriminator");
      selfClient.delete_friend("friend id");
      selfClient.block_friend("friend id");
 ```
